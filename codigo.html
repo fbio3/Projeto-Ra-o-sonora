@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+<body>
+    <header id="pai">
+        <h1>Ração Sonora</h1>
+        <nav>
+            <ul id="dentroPai">
+                <li class="peitoPai"><a href="index.html">Início</a></li>
+                <li class="peitoPai"><a href="autores.html">Autores</a></li>
+                <li class="peitoPai"><a href="componentes.html">Componentes</a></li>
+                <li class="peitoPai"><a href="tecnologias.html">Plataformas</a></li>
+                <li class="peitoPai"><a href="passoapasso.html">Instruções</a></li>
+                <li class="peitoPai"><a href="codigo.html">Código</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 id="codigoTitulo">Código</h1>
+
+    <img src="assets/fotocodigo.png" alt="Código em C++">
+    
+    <!-- <div id="codigo">
+        <p >// Pinos do sensor ultrassônico</p>
+        <p>const int trigPin = 9;</p>
+        <p>const int echoPin = 10;</p>
+
+        <p>// Pino do buzzer</p>
+        <p>const int buzzerPin = 8;</p>
+
+        <p>// Variáveis para distância</p>
+        <p>long duration;</p>
+        <p>int distance;</p>
+
+        <p>void setup() {</p>
+        <p>pinMode(trigPin, OUTPUT);     // TRIG é saída</p>
+        <p>pinMode(echoPin, INPUT);      // ECHO é entrada</p>
+        <p>pinMode(buzzerPin, OUTPUT);   // buzzer é saída</p>
+        <p>Serial.begin(9600);           // Inicia comunicação serial</p>
+        <p>}</p>
+
+        <p>void loop() {</p>
+        <p>// Envia pulso ultrassônico</p>
+        <p>digitalWrite(trigPin, LOW);</p>
+        <p>delayMicroseconds(2);</p>
+        <p>digitalWrite(trigPin, HIGH);</p>
+        <p>delayMicroseconds(10);</p>
+        <p>digitalWrite(trigPin, LOW);</p>
+
+        <p>// Lê o tempo do retorno do pulso</p>
+        <p>duration = pulseIn(echoPin, HIGH);</p>
+
+        <p>// Calcula a distância em cm</p>
+        <p>distance = duration * 0.034 / 2;</p>
+
+        <p>// Exibe no Monitor Serial</p>
+        <p>Serial.print("Distancia: ");</p>
+        <p>Serial.print(distance);</p>
+        <p>Serial.println(" cm");</p>
+
+        <p>// Emite sons conforme a distância</p>
+        <p>if (distance > 100) {</p>
+            <p>noTone(buzzerPin); // Muito longe, sem som</p>
+            <p>delay(1000);</p>
+        <p>} else if (distance > 50) {</p>
+            <p>tone(buzzerPin, 400); // Bip grave e lento</p>
+            <p>delay(100);</p>
+            <p>noTone(buzzerPin);</p>
+            <p>delay(900);</p>
+        <p>} else if (distance > 20) {</p>
+            <p>tone(buzzerPin, 700); // Bip médio</p>
+            <p>delay(100);</p>
+            <p>noTone(buzzerPin);</p>
+            <p>delay(400);</p>
+        <p>} else {</p>
+            <p>tone(buzzerPin, 1000); // Muito perto, som contínuo</p>
+        <p>}</p>
+        <p>}</p>
+        </p>
+    </div> -->
+
+    <h2><a id="github" href="">Acesse nosso repositório no GitHub</a></h2>
+    
+    
+</body>
+</html>

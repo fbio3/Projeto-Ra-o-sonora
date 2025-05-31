@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#pai{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(161, 255, 250);
+}
+
+#dentroPai{
+    display: flex;
+}
+
+.peitoPai{
+    margin: 0 15px;
+}
+
+#parte1Pagina{
+    display: flex;
+}
+
+#idlogo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 425px;
+}
+
+#descriçãoTitulo{
+    text-align: center;
+    padding-top: 27px;
+    padding-left: 590px;
+}
+
+#descriçãoOrganização{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 26px;
+    padding-right: 60px;
+}
+
+.descrição_texto{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    width: 773px;
+}
+
+.textoComplemento{
+    text-align: center;
+    padding: 7px;
+}
+
+#idprototipo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 425px;
+}
+
+#idprototipoComplemento{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.prototipoTexto{
+    text-align: center;
+    padding: 10px;
+}
+
+#autoresTitulo{
+    text-align: center;
+    margin: 20px;
+}
+
+#autores{
+    display: grid;
+    justify-items: center;
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.autoresBack{
+    background-color: silver;
+    border-radius: 10px;
+    padding: 20px;
+    padding-right: 0px;
+}
+
+.autoresGrid{
+    padding: 5px;
+}
+
+div#autores>div>ul>a{
+    padding: 1%;
+}
+
+div#autores>div{
+    width: 400px;
+}
+
+div#autores>div>img{
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+div#autores>div>ul>a:hover{
+    background-color: rgb(0, 94, 255);
+    color: white;
+}
+
+#componenteTitulo{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.componentes{
+    text-align: center;
+    padding: 10px;
+}
+
+#tecnologiasTitulo{
+    text-align: center;
+    margin: 30px;
+}
+
+#tecnologias{
+    list-style-type: disc;
+    margin: 30px;
+}
+
+#passoTitulo{
+    text-align: center;
+    padding: 20px;
+}
+
+.passoapasso{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.aPasso{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    margin: 2%;
+    margin-left: 35%;
+    width: 2%;
+    width: 31%;
+    background-color: rgb(146, 146, 146);
+    color: white;
+}
+
+#codigoTitulo{
+    text-align: center;
+    margin: 20px;
+}
+
+#codigo{
+    width: 400px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 552px;
+    background-color: black;
+    border-radius: 10px;
+    color: silver;
+}
+
+div#codigo>p{
+    padding: 4px;
+}
+
+#github{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    margin: 2%;
+    margin-left: 35%;
+    width: 2%;
+    width: 31%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 9%;
+    border-radius: 10px;
+}
+
+a:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(60, 59, 59);
+}
