@@ -167,15 +167,10 @@ div#autores>div>ul>a:hover{
 }
 
 #codigo{
-    width: 400px;
-    line-height: 1.5;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 552px;
-    background-color: black;
+    width: 517px;
+    height: 1229px;
+    margin-left: 32%;
     border-radius: 10px;
-    color: silver;
 }
 
 div#codigo>p{
