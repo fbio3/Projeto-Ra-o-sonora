@@ -1,0 +1,195 @@
+@media screen and (max-width: 768px) {
+    h1, h2, h3 {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 1.8em;
+    }
+
+    #componenteTitulo, #tecnologiasTitulo, #passoTitulo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 1.7em;
+    }
+
+    .componentes, #tecnologias li, #tecnologias p {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: justify;
+    }
+
+    #pai {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    #pai h1 {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    #dentroPai {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .peitoPai {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .peitoPai a {
+        display: block;
+        padding: 10px 0;
+        background-color: rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+    }
+
+    .peitoPai a:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    #parte1Pagina {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    #idlogo {
+        height: auto;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    #idlogo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #descriçãoOrganização {
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    .descrição_texto {
+        width: 100%;
+        padding: 10px 0;
+        text-align: justify;
+    }
+
+    .textoComplemento {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    #idprototipo {
+        height: auto;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    #idprototipo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #idprototipoComplemento,
+    .prototipoTexto {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #autores {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .autoresBack {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    div#autores > div > img {
+        margin: 0 auto 15px auto;
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .passoapasso {
+        padding: 15px;
+        margin: 15px auto;
+        max-width: 90%;
+    }
+    .passoapasso h3 {
+        font-size: 1.1em;
+    }
+    .passoapasso li {
+        font-size: 0.95em;
+    }
+
+    #codigo {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    #github {
+        flex-direction: column;
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+        padding: 15px;
+    }
+    #github a {
+        padding: 10px 0;
+    }
+
+    h2 a {
+        max-width: 90%;
+        font-size: 0.9em;
+        padding: 8px 10px;
+    }
+    .aPasso {
+        width: 90%;
+        padding: 12px 15px;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1, h2, h3 {
+        font-size: 1.5em;
+    }
+    #componenteTitulo, #tecnologiasTitulo, #passoTitulo {
+        font-size: 1.4em;
+    }
+    .componentes, #tecnologias li, #tecnologias p {
+        font-size: 0.9em;
+    }
+
+    #pai h1 {
+        font-size: 1.8em;
+    }
+    .peitoPai a {
+        font-size: 0.9em;
+    }
+
+    #descriçãoTitulo {
+        font-size: 1.5em;
+    }
+    .descrição_texto, .textoComplemento, #idprototipoComplemento, .prototipoTexto {
+        font-size: 0.9em;
+    }
+
+    #autoresTitulo {
+        font-size: 1.6em;
+    }
+    .autoresGrid {
+        font-size: 0.95em;
+    }
+}
