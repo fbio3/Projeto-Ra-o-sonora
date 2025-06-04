@@ -22,78 +22,67 @@
     </header>
 
     <h1 id="passoTitulo">🛠️ Montagem passo a passo</h1>
+    <h2> <a href="componentes.html">Se ainda não tem a lista dos componentes, clique aqui</a></h2>
     <ul class="passoapasso"> 
-        <h3>1. Conectando o sensor ultrassônico (HC-SR04)</h3>
-        <li>VCC → 5V no Arduino</li>
-        <li>GND → GND no Arduino</li>
-        <li></li>
-        <li></li>
+        <h3>1. Alimentação da Protoboard:</h3>
+        <li>Arduino 5V → Linha + (Vermelha) da Protoboard (Jumper M-M)</li>
+        <li>Arduino GND → Linha - (Azul) da Protoboard (Jumper M-M)</li>
     </ul>
 
     
     <ul class="passoapasso">
-        <h3>2. Conectando o buzzer</h3>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <h3>2. Sensor Ultrassônico HC-SR04:</h3>
+        <li>VCC do Sensor → Linha + (5V) da Protoboard (Jumper M-F)</li>
+        <li>GND do Sensor → Linha - (GND) da Protoboard (Jumper M-F)</li>
+        <li>Trig do Sensor → Pino Digital 9 do Arduino (Jumper M-F)</li>
+        <li>Echo do Sensor → Pino Digital 10 do Arduino (Jumper M-F)</li>
     </ul>
 
     
     <ul class="passoapasso">
-        <h3>3. Conectando o LED</h3>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <h3>3. Buzzer Passivo:</h3>
+        <li>Pino Positivo (+) do Buzzer → Pino Digital 8 do Arduino (Jumper M-M)</li>
+        <li>Pino Negativo (-) do Buzzer → Linha - (GND) da Protoboard (Jumper M-M)</li>
     </ul>
 
     <ul class="passoapasso"> 
-        <h3>4. Montando na ProtoBoard</h3>
-        <li></li>
-        <li></li>
-        <li></li>
+        <h3>4. LED com Resistor:</h3>
+        <li>Pino Digital 13 do Arduino → Uma ponta do Resistor 220R (Jumper M-M)</li>
+        <li>Outra ponta do Resistor 220R → Perna Longa (Ânodo) do LED (Encaixe direto na protoboard)</li>
+        <li>Perna Curta (Cátodo) do LED → Linha - (GND) da Protoboard (Encaixe direto na protoboard)</li>
         <li></li>
     </ul>
 
     <ul class="passoapasso"> 
         <h3>5. Fixando no pote de ração</h3>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Fixe o Arduino e a protoboard na parte externa do pote de ração usando fita dupla face ou velcro.</li>
+        <li>Posicione o sensor ultrassônico HC-SR04 de modo que ele fique voltado para a área onde o animal irá se alimentar.</li>
+        <li>Fixe o buzzer em um local visível e acessível, de modo que o som seja audível ao animal ou aos donos.</li>
+        <li>Certifique-se de que os fios estejam bem presos para evitar que se soltem durante o uso.</li>
     </ul>
 
     <ul class="passoapasso"> 
-        <h3>6. Alimentação</h3>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <h3>6. Upload do Código</h3>
+        <li>Abra o Arduino IDE em seu computador e conecte o Arduino à porta USB.</li>
+        <li>Selecione o modelo do seu Arduino e a porta correta no menu "Ferramentas".</li>
+        <li>Cole o código fornecido no editor do Arduino IDE.</li>
+        <li>Clique em "Carregar" para enviar o código para o Arduino. Aguarde até que a transferência seja concluída.</li>
+        
     </ul>
 
     <ul class="passoapasso"> 
-        <h3>7. Upload do Código</h3>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <h3>7. Teste e Finalização</h3>
+        <li>Teste o sensor ultrassônico verificando se ele detecta objetos corretamente e ativa o LED/buzzer.</li>
+        <li>Teste o buzzer, garantindo que ele emita som quando necessário.</li>
+        <li>Verifique se o LED acende conforme o esperado.</li>
+        <li>Coloque o sistema no pote de ração e simule o comportamento (como o animal se aproximando) para verificar se tudo funciona.</li>
+       
     </ul>
-
-    <ul class="passoapasso">
-        <h3>8. Teste e Finalização</h3> 
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-
-
     <div>
-        <h3> <a class="aPasso" href="https://www.youtube.com/watch?v=sv9dDtYnE1g">Assista nosso tutorial no Youtube</a></h3>
+        <h3> <a class="aPasso" href="https://youtube.com/shorts/k-d-kEItHTg">Assista nosso produto final</a></h3>
     </div>
     <div>
-        <h3> <a class="aPasso" href="">Baixar Projeto</a></h3>
+        <h3> <a class="aPasso" href="assets/racao-sonora- completo.zip" download>Baixar Projeto</a></h3>
     </div>
     
     
