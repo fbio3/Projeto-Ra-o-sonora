@@ -225,11 +225,11 @@ h2 a:hover {
 }
 
 #codigo{
-    width: 517px;
+    width: 630px;
     height: 1229px;
-    max-width: 90%;
-    margin: 20px auto;
-    border-radius: 10px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
 }
 
 div#codigo>p{
