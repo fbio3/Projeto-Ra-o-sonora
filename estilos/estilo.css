@@ -35,7 +35,7 @@
 #descriçãoTitulo{
     text-align: center;
     padding-top: 27px;
-    padding-left: 590px;
+    
 }
 
 #descriçãoOrganização{
@@ -43,7 +43,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 26px;
-    padding-right: 60px;
+    padding-right: 60px; 
 }
 
 .descrição_texto{
@@ -141,24 +141,82 @@ div#autores>div>ul>a:hover{
 #passoTitulo{
     text-align: center;
     padding: 20px;
+    margin-top: 30px;
 }
 
-.passoapasso{
-    display: flex;
-    justify-content: center;
+h2 a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h2 a:hover {
+    background-color: #e0e0e0;
+    color: #000;
+    text-decoration: underline;
+}
+
+.passoapasso {
     padding: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    list-style-type: none;
 }
 
-.aPasso{
-    display: flex;
-    justify-content: center;
-    padding: 1%;
-    margin: 2%;
-    margin-left: 35%;
-    width: 2%;
-    width: 31%;
-    background-color: rgb(146, 146, 146);
+.passoapasso h3 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #0056b3;
+}
+
+.passoapasso li {
+    text-align: left;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.passoapasso li::before {
+    content: "•";
+    color: #0056b3;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.aPasso {
+    display: block;
+    padding: 15px 25px;
+    margin: 20px auto;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(0, 94, 255);
     color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.aPasso:hover {
+    background-color: rgb(0, 70, 190);
+    color: white;
+    cursor: pointer;
 }
 
 #codigoTitulo{
@@ -169,7 +227,8 @@ div#autores>div>ul>a:hover{
 #codigo{
     width: 517px;
     height: 1229px;
-    margin-left: 32%;
+    max-width: 90%;
+    margin: 20px auto;
     border-radius: 10px;
 }
 
@@ -182,20 +241,20 @@ div#codigo>p{
     justify-content: center;
     padding: 1%;
     margin: 2%;
-    margin-left: 35%;
-    width: 2%;
-    width: 31%;
+    margin-left: 35%; 
+    width: 2%; 
+    width: 31%; 
 }
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
-    padding: 9%;
+    padding: 9%; 
     border-radius: 10px;
 }
 
